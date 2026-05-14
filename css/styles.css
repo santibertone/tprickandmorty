@@ -16,11 +16,11 @@
   --text-tertiary: #5a6378;
 
   /* Portal accent */
-  --portal: #97ce4c;
-  --portal-bright: #b8e864;
-  --portal-dim: #6fa838;
-  --portal-glow: rgba(151, 206, 76, 0.35);
-  --portal-faint: rgba(151, 206, 76, 0.08);
+  --portal: #a3d65a;
+  --portal-bright: #c4ee70;
+  --portal-dim: #7ab842;
+  --portal-glow: rgba(163, 214, 90, 0.42);
+  --portal-faint: rgba(163, 214, 90, 0.1);
 
   /* Status */
   --status-alive: #4ade80;
