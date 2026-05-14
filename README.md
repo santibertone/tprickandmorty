@@ -49,6 +49,11 @@ La separación `api.js` / `ui.js` / `main.js` aísla responsabilidades: si maña
 
 Como es HTML/CSS/JS puro alcanza con abrir `index.html` en el navegador.
 
+## Capturas
+
+[Vista desktop](img/screenshot-desktop.png)
+[Vista mobile](img/screenshot-mobile.png)
+
 ## API utilizada
 
 [Rick and Morty API](https://rickandmortyapi.com) — pública, gratuita, sin autenticación. Datos provistos bajo MIT License. Créditos a Axel Fuhrmann y la comunidad open source que la mantiene.

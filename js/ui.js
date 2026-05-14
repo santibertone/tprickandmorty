@@ -38,6 +38,7 @@ function buildCardHTML(character, index) {
           alt="${escapeHTML(character.name)}"
           class="character-image"
           loading="lazy"
+          onerror="this.onerror=null; this.src='img/default_image.jpg';"
         >
         <span class="character-id">#${String(character.id).padStart(3, '0')}</span>
       </div>
