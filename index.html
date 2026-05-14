@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explorador interdimensional de personajes de Rick and Morty">
+  <title>rick-and-morty-explorer</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700;800&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <span class="prompt">&gt;_</span>
+        <h1 class="brand-title">rick-and-morty<span class="accent">.explorer</span></h1>
+      </div>
+      <p class="brand-tagline">// interdimensional character database · v1.0</p>
+    </div>
+  </header>
+
+  <main class="container main-content">
+    <section class="status-bar" aria-live="polite">
+      <span class="status-label">[status]</span>
+      <span id="status-message">inicializando&hellip;</span>
+      <span class="cursor" aria-hidden="true"></span>
+    </section>
+
+    <section class="characters-grid" id="characters-grid" aria-label="Listado de personajes">
+    </section>
+
+    <nav class="pagination" aria-label="Paginación">
+      <button id="prev-btn" class="pagination-btn" type="button" disabled>
+        <span aria-hidden="true">←</span> anterior
+      </button>
+      <span class="pagination-info">
+        <span class="bracket">[</span>
+        <span id="current-page">001</span>
+        <span class="slash">/</span>
+        <span id="total-pages">???</span>
+        <span class="bracket">]</span>
+      </span>
+      <button id="next-btn" class="pagination-btn" type="button" disabled>
+        siguiente <span aria-hidden="true">→</span>
+      </button>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <span class="footer-line">// data via <a href="https://rickandmortyapi.com" target="_blank" rel="noopener noreferrer">rickandmortyapi.com</a></span>
+      <span class="footer-line footer-meta">made with vanilla js · no framework dependencies</span>
+    </div>
+  </footer>
+
+  <!-- Scripts en orden: definiciones primero, luego DOM helpers, finalmente el orquestador -->
+  <script src="js/api.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
