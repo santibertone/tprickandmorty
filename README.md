@@ -57,3 +57,5 @@ Como es HTML/CSS/JS puro alcanza con abrir `index.html` en el navegador.
 ## API utilizada
 
 [Rick and Morty API](https://rickandmortyapi.com) — pública, gratuita, sin autenticación. Datos provistos bajo MIT License. Créditos a Axel Fuhrmann y la comunidad open source que la mantiene.
+
+Copyright © 2026 Santino Bertone - Federico Villarroel
